@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Challenge3 {
     public static String reverse(String s) {
+        if(s==null) return s;
+
         char[] str = s.toCharArray();
         int left = 0;
         int right = str.length-1;
@@ -17,6 +19,8 @@ public class Challenge3 {
     }
 
     public static String reverseAndReplaceSpace(String s) {
+        if(s==null) return s;
+
         String replacedString = s.replaceAll("\\s+", "-");
         return reverse(replacedString);
     }
