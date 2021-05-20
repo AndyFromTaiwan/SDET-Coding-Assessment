@@ -1,13 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        // Challenge1
+        // Challenge 1 Demo
         System.out.println("[ Demo for Challenge 1 ]");
         Challenge1.printPlanitTesting();
         System.out.println();
 
-        // Challenge3
+        // Challenge 3 Demo
         System.out.println("[ Demo for Challenge 3 ]");
-        String[] demos = { "reverse order", "string   reverse order", "string   reverse   order" };
+        String[] demos = {
+                "reverse order",
+                "string    reverse    order",
+                "stringreverseorder",
+                "    reverse order "
+        };
+
         for(String demo : demos) {
             String res = Challenge3.reverseAndReplaceSpace(demo);
             System.out.println("\"" + demo + "\" -> \""+ res + "\"");
