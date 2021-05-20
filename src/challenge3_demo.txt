@@ -1,0 +1,16 @@
+reverse order
+reverse    order   with  multiple spaces
+stringreverseorderwithoutspace
+         reverse order with   leading  or    trailing spaces 
+
+reverse	order	with	a	tab
+reverse	order		with	multiple		tabs
+stringreverseorderwithouttab
+		reverse	order	with	leading		or	trailing	tabs	
+
+ 
+  
+	
+		
+1
+12
