@@ -11,6 +11,7 @@ public class Challenge3 {
         int left = 0;
         int right = str.length-1;
         while(left < right) {
+            // swap
             char temp = str[left];
             str[left++] = str[right];
             str[right--] = temp;
@@ -38,8 +39,7 @@ public class Challenge3 {
                         System.out.println("\"" + s + "\" -> \"" + res + "\"");
                     }
                 }
-            }
-            catch(FileNotFoundException e) {
+            } catch(FileNotFoundException e) {
                 System.out.println("Fail to open file " + fileName);
                 e.printStackTrace();
             }
