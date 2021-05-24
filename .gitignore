@@ -25,6 +25,7 @@ hs_err_pid*
 # IntelliJ IDEA
 .idea
 out
+target
 
 # Mac
 .DS_Store
